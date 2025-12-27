@@ -1,0 +1,19 @@
+https://gist.github.com/codecademydev/01afe41e7f7241cb30edac06a9dd08cc
+
+//Forecast = 239 kelvin
+const kelvin = 0;
+
+//celsius = kelvin - 273;
+let celsius = kelvin - 273;
+
+//convert to Fahrenheit
+let fahrenheit = celsius * (9/5) + 32;
+
+//console log fahrenheit and round down with Math.floor()
+fahrenheit = Math.floor(fahrenheit);
+console.log(fahrenheit);
+
+
+//The temperature is <TEMPERATURE> degrees Fahrenheit.
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`)
